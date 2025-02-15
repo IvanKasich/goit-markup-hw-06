@@ -465,7 +465,21 @@ ol {
 @media screen and (min-width: 768px) {
   .features-list {
     column-gap: 24px;
-    row-gap: 72px;
+  }
+  .features-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .features-title {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .features {
+    padding: 120px 0;
+  }
+
+  .features-list {
+    gap: 24px;
   }
   .features-item {
     width: calc((100% - 72px) / 4);
@@ -485,18 +499,9 @@ ol {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-align: left;
   }
   .features-text {
     font-weight: 400;
-  }
-}
-@media screen and (min-width: 1158px) {
-  .features {
-    padding: 120px 0;
-  }
-  .features-list {
-    gap: 24px;
   }
 }
 .team {

@@ -824,6 +824,9 @@ ol {
     display: flex;
     flex-wrap: nowrap;
   }
+  .footer-form-input {
+    width: 264px;
+  }
 }
 @media screen and (min-width: 1158px) {
   .footer {
@@ -850,9 +853,6 @@ ol {
   }
   .footer-form {
     gap: 24px;
-  }
-  .footer-form-input {
-    width: 264px;
   }
 }
 .modal-overlay {

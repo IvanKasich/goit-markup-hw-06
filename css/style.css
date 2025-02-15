@@ -1,0 +1,40 @@
+/* header */
+
+.address-item {
+}
+
+/* hero */
+
+/* features */
+
+.features-item {
+  width: 264px;
+}
+.features-thumb {
+}
+
+/* team */
+
+/* portfolio */
+
+/* footer */
+
+.footer .container {
+}
+
+.footer-soc-header {
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.modal-input {
+  width: 360px;
+}
+
+.modal-comments {
+  width: 360px;
+}

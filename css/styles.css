@@ -181,6 +181,9 @@ ol {
   .address-link:focus {
     color: #404bbf;
   }
+  .mob-menu-overlay {
+    display: none;
+  }
 }
 @media screen and (min-width: 1158px) {
   .logo {
@@ -575,6 +578,9 @@ ol {
   .team {
     padding: 120px 0;
   }
+  .team .container {
+    padding: 0 15px;
+  }
 }
 .portfolio {
   padding: 96px 0;
@@ -834,6 +840,7 @@ ol {
   }
   .footer .container {
     padding-left: 15px;
+    gap: 0;
   }
   .footer-descr {
     margin-right: 120px;
